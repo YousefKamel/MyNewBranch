@@ -33,6 +33,11 @@ public class MyClass
 		}
 	}
 	///////////////////////////////////////////////////////////
+	public static int find_min_prime(int arr[])
+    {
+        Arrays.sort(arr);
+        return arr[0];
+    }
 	public static void main(String[] args)
 	{
 		
